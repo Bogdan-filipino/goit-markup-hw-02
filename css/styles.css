@@ -113,6 +113,10 @@ background-color:#2E2F42 ;
 
 }
 
+.info-title{
+    
+}
+
 .info-list {
 
 }
@@ -149,6 +153,7 @@ background-color: #f4f4fd;;
     color: #2e2f42;
 }
 .our-team-list {
+    background-color: #FFFFFF;
 
 }
 .our-team-subtitle {
@@ -185,6 +190,7 @@ background-color: #f4f4fd;;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 .our-portfolio-list {
@@ -224,7 +230,7 @@ background-color:  #2e2f42;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 .footer-span-logo {
     font-family: "Raleway", sans-serif;
@@ -233,7 +239,7 @@ background-color:  #2e2f42;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 .footer-text {
     font-weight: 400;
