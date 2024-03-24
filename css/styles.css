@@ -1,6 +1,6 @@
 body{
     font-family: "Roboto", sans-serif;
-    color: #434445;
+    color:#434455;
     background-color:  #fff;
 }
 
@@ -27,17 +27,17 @@ a{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
-}
+    color: #4d5ae5;
+ }
 
-.header-logo-span {
+ .header-logo-span {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;
+color: #2e2f42;
 }
 
 .header-menu {
@@ -59,7 +59,7 @@ color: #2e2f42;
 }
 
 .header-contacts {
-
+    font-style: normal;
 }
 .header-address {
 }
@@ -70,7 +70,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.header-contacts-link:hover, .header-contacts-link:focus{
+.header-contacts-link:hover, 
+.header-contacts-link:focus{
     color: #404bbf;
 }
 
@@ -101,11 +102,38 @@ background-color:#2E2F42 ;
 }
 
 .hero-btn:hover, 
-.hero-btn:active{
+.hero-btn:focus{
    background-color: #404bbf;
+   cursor: pointer;
 }
 
 /*--------------------------------------------------------------------------*/
+
+.info {
+
+}
+
+.info-list {
+
+}
+.info-item {
+
+}
+.info-subtitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.info-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
 /*--------------------------------OURTEAM-----------------------------------*/
 
 .our-team {
@@ -117,6 +145,7 @@ background-color: #f4f4fd;;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+     text-transform: capitalize;
     color: #2e2f42;
 }
 .our-team-list {
@@ -192,7 +221,7 @@ background-color:  #2e2f42;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
@@ -201,7 +230,7 @@ background-color:  #2e2f42;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
